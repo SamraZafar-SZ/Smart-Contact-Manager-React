@@ -1,0 +1,24 @@
+/* src/components/UserDashboard.css */
+
+.container {
+    margin-top: 3em; /* To ensure it's below the navbar */
+  }
+  
+  .card {
+    margin: 1em 0;
+  }
+  
+  .profile_picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url('D:\SmartContactManager\frontend\public\profile.png'); /* Replace with the correct path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  

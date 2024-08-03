@@ -1,0 +1,12 @@
+.input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group-prepend .input-group-text {
+    background-color: #f8f9fa;
+  }
+  
+  .container.text-center {
+    margin-top: 2rem;
+  }
+  

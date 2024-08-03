@@ -1,0 +1,19 @@
+.profile_picture {
+    border-radius: 50%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  

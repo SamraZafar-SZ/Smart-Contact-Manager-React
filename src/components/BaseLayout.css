@@ -1,0 +1,61 @@
+/* src/components/BaseLayout.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    z-index: 1;
+  }
+  
+  .navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-inline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 3em; /* Below the navbar */
+    left: 0;
+    width: 250px;
+    height: calc(100% - 3em);
+    background-color: #f8f9fa;
+    padding-top: 10px;
+   
+  }
+  
+  .sidebar .item {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar .item:hover {
+    background-color: #dddd;
+  }
+  
+  .content {
+    margin-left: 250px; /* Same width as the sidebar */
+    padding: 1em;
+    margin-top: 3em; /* Height of the navbar */
+  }
+  

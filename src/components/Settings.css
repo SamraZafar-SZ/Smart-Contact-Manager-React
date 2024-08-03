@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .alert {
+    width: 100%;
+  }
+  

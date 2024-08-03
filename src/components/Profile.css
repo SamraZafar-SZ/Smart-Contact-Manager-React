@@ -1,0 +1,16 @@
+/* src/components/Profile.css */
+
+.card {
+    margin: 2em;
+    width: 500px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .table {
+    margin-top: 2em;
+  
+  }
+  
